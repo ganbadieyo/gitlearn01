@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML学习</title>
+  </head>
+  <body>
+    <h1>hello word4</h1>
+    <p>我的第一个段落</p>
+    <hr />
+    <p>我的第二个段落</p>
+    <hr />
+    <p
+      style="
+        background-color: aqua;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: brown;
+        font-size: large;
+        text-align: center;
+      "
+    >
+      我的第三个段落
+    </p>
+    <abbr title="etcetera">etc.</abbr>
+    <br />
+    <acronym title="World Wide Web">WWW</acronym>
+    <br />
+    <bdo dir="rtl">Here is some Hebrew text </bdo>
+    <br />
+    <a href="https://www.baidu.com/">这是一个短连接</a>
+    <br />
+    <!--这是一个注释-->
+    <!-- 这是一个短引用 -->
+    <p>摘自文本文摘<q>这是一个引用</q></p>
+    <!-- 这是一个长引用 -->
+    <p>以下内容引用自 WWF 的网站：</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      五十年来，WWF 一直致力于保护自然界的未来。 世界领先的环保组织，WWF 工作于
+      100 个国家， 并得到美国一百二十万会员及全球近五百万会员的支持。
+    </blockquote>
+    <p>WWF 的目标是：<q>构建人与自然和谐共存的世界。</q></p>
+    <p><abbr title="World Health Organization">WHO</abbr> 成立于 1948 年。</p>
+    <table border="1">
+      <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>row 2, cell 2</td>
+      </tr>
+    </table>
+    <iframe src="/example/html/demo_iframe.html" name="iframe_a"></iframe>
+
+    <p>
+      <a href="http://www.w3school.com.cn" target="iframe_a">W3School.com.cn</a>
+    </p>
+
+    <p>
+      <b>注释：</b>由于链接的目标匹配 iframe 的名称，所以链接会在 iframe
+      中打开。
+    </p>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()"
+    >
+      点我
+    </button>
+    <p id="demo"></p>
+
+    <img src="boat.gif" alt="Big Boat" />
+  </body>
+</html>
